@@ -5,35 +5,79 @@
   <title>Go-Driver | Advocacy & Compliance Platform</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: 'Segoe UI', Arial, sans-serif; background: #fff; color: #111; margin: 0; }
-    .main { max-width: 850px; margin: 48px auto; background: #fff; padding: 38px; }
-    .logo { display: block; margin: 0 auto 24px auto; width: 250px;}
-    h1 { font-size: 3em; color: #111; text-align: center; margin-bottom: 4px; letter-spacing: 2px;}
-    h2, h3 { color: #222; margin-top: 34px;}
-    ul { margin-top:14px; }
-    .section { margin-bottom:30px;}
-    a {
-      color: #09e2d7; font-weight: bold; text-decoration: none; border-bottom: 2px solid transparent;
-      transition: border-color .15s;
-    }
-    a:hover { border-bottom: 2px solid #09e2d7; }
-    .credit { margin-top:40px; text-align:center; color:#222; font-size:1em;}
-    .cyan-block {
-      background: #effefe;
-      border-left: 4px solid #09e2d7;
-      padding: 6px 16px;
-      font-size: 1.09em;
-    }
-    .topnav {
-      display: flex;
-      justify-content: center;
-      gap: 22px;
-      align-items: center;
-      margin-bottom: 18px;
-      font-size: 1.08em;
-    }
-    .topnav a { color: #09e2d7; }
-    .arch { display:block; margin:14px auto 10px auto; max-width:97%; }
+   body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #111;
+  margin: 0;
+}
+.main {
+  max-width: 850px;
+  width: 99vw;
+  margin: 2vw auto 0 auto;
+  background: #fff;
+  padding: 6vw 4vw;
+  box-sizing: border-box;
+}
+.logo {
+  display: block;
+  margin: 0 auto 6vw auto;
+  width: 42vw;
+  max-width: 250px;
+}
+h1 {
+  font-size: 2.4em;
+  color: #111;
+  text-align: center;
+  margin-bottom: 2vw;
+  letter-spacing: 2px;
+}
+.section, .credit {
+  margin-bottom: 5vw;
+}
+a {
+  color: #09e2d7;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color .15s;
+  word-break: break-all;
+}
+a:hover {
+  border-bottom: 2px solid #09e2d7;
+}
+.arch {
+  display: block;
+  margin: 6vw auto 3vw auto;
+  max-width: 97%;
+  width: 98vw;
+  height: auto;
+}
+.cyan-block {
+  background: #effefe;
+  border-left: 4px solid #09e2d7;
+  padding: 1vw 2vw;
+  font-size: 1em;
+  overflow-x: auto;
+  max-width: 100vw;
+}
+.topnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4vw;
+  align-items: center;
+  margin-bottom: 4vw;
+  font-size: 1.04em;
+}
+.topnav a { color: #09e2d7; }
+@media (max-width: 600px) {
+  h1 { font-size: 1.6em; }
+  .main { padding: 5vw 2vw; }
+  .logo { width: 62vw; max-width: 220px;}
+  .arch { max-width: 99vw; }
+  .section, .credit { margin-bottom: 7vw;}
+}
   </style>
 </head>
 <body>
@@ -137,3 +181,4 @@ cd Go-Driver
   </div>
 </body>
 </html>
+
