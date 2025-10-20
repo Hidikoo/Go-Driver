@@ -3,5 +3,6 @@ Next-Generation Advocacy &amp; Compliance Platform. Go-Driver is a modular, priv
 
 [Link to full README](https://hidikoo.github.io/Go-Driver/)
 
-© Photini Family
+© 2025 Heidi Kalske-Akintobi | Photini Family™ | All rights reserved.
+
 
