@@ -17,7 +17,7 @@
 
 | Resource | Description |
 |----------|-------------|
-| **[Full README & Guide](./index.html)** | Interactive HTML documentation |
+| **[Full README](./index.html)** | Interactive HTML documentation |
 | **[Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md)** | Ethics framework (ISO/GDPR/UNCRC) |
 | **[Technical Controls](./docs/TECHNICAL-CONTROLS-v1-design.md)** | Implementation guide (design peek) |
 | **[Architecture Diagram](./docs/Public_ASCII_white.png)** | Visual system overview |
