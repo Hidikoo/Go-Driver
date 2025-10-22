@@ -1,21 +1,15 @@
-## **Navigation**
+================================================================================
+                 GO-DRIVER FLASHCARDS & Q&A
+             Quick Reference Guide for Team Onboarding
+================================================================================
 
-🏠 **[← Back to Main README](https://github.com/Hidikoo/Photini-Go-Driver)**  
-📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
-📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
-🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
+📘 Full Documentation: https://hidikoo.github.io/Photini-Go-Driver/
+🏠 GitHub Repository: https://github.com/Hidikoo/Photini-Go-Driver
+📋 Compliance Principles: ./COMPLIANCE_PRINCIPLES.md
+🛠️ Technical Controls: ./TECHNICAL-CONTROLS-v1-design.md
+🗺️ Roadmap: ./roadmap.md
 
----
-
-# Photini's Go-Driver Flashcards and QnA
-
-## Architecture and Ethics Model
-
-
-**Flashcard QnA Set**
-
-
----
+================================================================================
 
 Q: What are some of the key benefits Go-Driver aims to deliver to its users?
 A: Transparent productivity, ethical collaboration, innovation acceleration, regulatory compliance, and robust privacy safeguards.
@@ -92,6 +86,7 @@ For the full architecture and ethical AI documentation, see:
 🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
 
 ---
+
 
 
 
