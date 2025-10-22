@@ -4,7 +4,7 @@
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 ---
 # **Technical Controls Implementation Guide**
@@ -564,6 +564,6 @@ The Manager's Office displays real-time compliance metrics:
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 ---
