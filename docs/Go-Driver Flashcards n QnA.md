@@ -80,9 +80,7 @@ A: By using a Modular Data Sanctuary, which is a transparent and auditable knowl
 More Information
 For the full architecture and ethical AI documentation, see:
 
-Go-Driver Public Architecture Overview
-**[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)** 
-**[Architect diagram](./architect.png)**
+**[Architect diagram](./architect.png)** | **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)** 
 
 ---
 
@@ -94,6 +92,7 @@ Go-Driver Public Architecture Overview
 🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
 
 ---
+
 
 
 
