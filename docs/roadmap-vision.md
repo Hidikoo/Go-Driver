@@ -1,3 +1,13 @@
+## **Navigation**
+
+🏠 **[← Back to Main README](https://github.com/Hidikoo/Photini-Go-Driver)**  
+📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
+📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
+🗺️ **[Roadmap](./roadmap.md)**  
+🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+
+---
+
 # Go-Driver: Visionary Roadmap (Founder’s Edition)
 
 **Author:** Heidi Kalske-Akintobi / Photini Family & Go-Driver Core  
@@ -123,3 +133,14 @@ Every thread, file, and policy is a small act of repair for a world that forgot 
 And this time — we will not forget.
 
 ---
+
+## **Navigation**
+
+🏠 **[← Back to Main README](https://github.com/Hidikoo/Photini-Go-Driver)**  
+📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
+📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
+🗺️ **[Roadmap](./roadmap.md)** 
+🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+
+---
+
