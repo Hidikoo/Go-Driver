@@ -8,9 +8,9 @@
 
 ---
 
-#Photini's Go-Driver Flashcards and QnA
+# Photini's Go-Driver Flashcards and QnA
 
-##Architecture and Ethics Model
+## Architecture and Ethics Model
 
 
 **Flashcard QnA Set**
@@ -94,4 +94,5 @@ More Information
 For the full architecture and ethical AI documentation, see:
 
 Go-Driver Public Architecture Overview
+
 
