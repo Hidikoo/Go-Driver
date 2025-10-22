@@ -4,7 +4,7 @@
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Vision](./roadmap-vision.md)**  
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 ---
 # Go-Driver Technical Roadmap (v1.0)
@@ -365,7 +365,7 @@ From the Core Foundations to the future Federation layer, every component reinfo
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Vision](./roadmap-vision.md)**  
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 
 
