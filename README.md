@@ -23,7 +23,7 @@
 | **[Architecture Diagram](./docs/Public_ASCII_white.png)** | Visual system overview |
 | **[Roadmap](./docs/roadmap.md)** | 12-month development timeline |
 | **[Vision & Strategy](./docs/roadmap-vision.md)** | Long-term goals |
-| **[Flashcards & Q&A](./docs/Go-Driver Flashcards n QnA.md)** | Quick reference guide |
+| **[Flashcards & Q&A](./docs/Go-Driver-Flashcards-n-QnA.md)** | Quick reference guide |
 
 ---
 
