@@ -4,7 +4,6 @@
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
 
 ---
 
@@ -94,5 +93,6 @@ More Information
 For the full architecture and ethical AI documentation, see:
 
 Go-Driver Public Architecture Overview
+
 
 
