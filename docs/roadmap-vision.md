@@ -4,7 +4,7 @@
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Roadmap](./roadmap.md)**  
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 ---
 
@@ -140,7 +140,7 @@ And this time — we will not forget.
 📘 **[Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Roadmap](./roadmap.md)** 
-🎴 **[Flashcards & Q&A](./Go-Driver%20Flashcards%20%26%20QnA.txt)**
+🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
 
 ---
 
