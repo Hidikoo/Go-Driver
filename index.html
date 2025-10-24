@@ -55,8 +55,34 @@
             background: var(--bg-white);
             font-size: 16px;
             font-weight: 400;
+            background: linear-gradient(135deg, #f6fbfd 0%, #eaf7fa 100%);
         }
         
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        table {
+            width: 100%;
+            overflow-x: auto;
+            display: block;
+        }
+
+        @media (max-width: 600px) {
+            table, thead, tbody, th, td, tr {
+            display: block;
+            width: 100%;
+          }
+          th, td {
+            box-sizing: border-box;
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+          }
+        }
+ 
         /* TYPOGRAPHY */
         h1, h2, h3, h4 {
             font-family: var(--font-heading);
@@ -417,7 +443,7 @@
         
         .footer-section a {
             color: var(--bg-light);
-            opacity: 0.85;
+            opacity: 0,85;
             font-weight: 400;
         }
         
@@ -425,7 +451,17 @@
             opacity: 1;
             color: var(--cyan-light);
         }
-        
+     
+        .footer-section p {
+           color: #222E45;   
+           opacity: 1;
+        }
+
+         .footer-bottom p {
+           color: #222E45;   
+           opacity: 1;
+        }
+
         .footer-bottom {
             text-align: center;
             margin-top: 3rem;
@@ -808,6 +844,7 @@
     
 </body>
 </html>
+
 
 
 
