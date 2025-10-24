@@ -263,6 +263,34 @@
             font-size: 0.95rem;
         }
         
+        .problem-card {
+            background: linear-gradient(135deg, #ececec 0%, #f8f9fb 60%, #e0e4ea 100%);
+            border-top: 5px solid #bdbdbd;
+            box-shadow: 0 2px 18px rgba(44, 62, 80, 0.10), 0 1px 2px rgba(76, 86, 105, 0.08);
+            filter: grayscale(10%);
+            opacity: 0.96;
+            transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.3s;
+        }
+        
+        .problem-card:hover {
+            box-shadow: 0 8px 28px rgba(44,62,80,0.15);
+            opacity: 1;
+            transform: translateY(-6px) scale(1.03);
+        }
+
+        .problem-card .card-icon {
+            opacity: 0.9;
+            filter: grayscale(25%);
+        }
+        
+        .problem-card h4 {
+            color: #444b57;
+        }
+        
+        .problem-card p {
+            color: #333b44;
+        }
+       
         /* BUTTONS */
         .btn {
             display: inline-block;
@@ -331,7 +359,8 @@
         }
         
         .architecture-showcase img {
-            max-width: 100%;
+            max-width: 900px;
+            width: 100%;
             height: auto;
             border-radius: 16px;
             box-shadow: 0 10px 40px var(--shadow-soft);
@@ -458,7 +487,7 @@
         }
 
          .footer-bottom p {
-           color: #007A8C;   
+           color: #009DB5;   
            opacity: 1;
         }
 
@@ -555,25 +584,25 @@
             
             <h3>The Problem We Solve</h3>
             <div class="card-grid">
-                <div class="card">
+                <div class="card problem-card">
                     <div class="card-icon">📂</div>
                     <h4>Evidence Fragmentation</h4>
                     <p>Case files scattered across devices, emails, platforms—losing critical documentation when it matters most.</p>
                 </div>
                 
-                <div class="card">
+                <div class="card problem-card">
                     <div class="card-icon">🔍</div>
                     <h4>Audit Trail Gaps</h4>
                     <p>No accountability chain for who accessed what, when, and why—compromising case integrity.</p>
                 </div>
                 
-                <div class="card">
+                <div class="card problem-card">
                     <div class="card-icon">🤖</div>
                     <h4>AI Black Boxes</h4>
                     <p>AI tools making decisions affecting vulnerable people without human oversight or explainability.</p>
                 </div>
                 
-                <div class="card">
+                <div class="card problem-card">
                     <div class="card-icon">⚖️</div>
                     <h4>Compliance Friction</h4>
                     <p>Privacy regulations treated as afterthought, not embedded in system architecture from day one.</p>
@@ -603,13 +632,13 @@
             </p>
             
             <h3>Interface Layout Overview</h3>
-            <img src="./docs/Public_ASCII_white.png" alt="Go-Driver ASCII Interface Layout" style="max-width: 900px;">
+            <img src="./docs/Public_ASCII_white.png" alt="Go-Driver ASCII Interface Layout" style="max-width: 900px; width: 100%; height: auto;">
             <p style="margin-top: 1rem; color: var(--text-light); font-size: 0.95rem;">
                 Manager's Office (Top) • Production Line (Left) • Work in Progress (Right) • Go-Driver's Seat (Bottom)
             </p>
             
             <h3 style="margin-top: 4rem;">Technical Architecture</h3>
-            <img src="./docs/architect.png" alt="Go-Driver Technical Architecture Diagram" style="max-width: 900px;">
+            <img src="./docs/architect.png" alt="Go-Driver Technical Architecture Diagram" style="max-width: 900px; width: 100%; height: auto;">
             <p style="margin-top: 1rem; color: var(--text-light); font-size: 0.95rem;">
                 End-to-end data flow: Evidence intake → AI processing → Human review → Compliance audit
             </p>
@@ -844,6 +873,7 @@
     
 </body>
 </html>
+
 
 
 
