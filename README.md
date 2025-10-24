@@ -98,6 +98,16 @@ Next-Generation Advocacy &amp; Compliance Platform. Go-Driver is a modular, priv
 
 [Link to full README](https://hidikoo.github.io/Photini-Go-Driver/)
 
+---
+
+![Accessibility 100/100](https://img.shields.io/badge/Accessibility-100%2F100-green) &#124; ![SEO 97/100](https://img.shields.io/badge/SEO-97%2F100-brightgreen)
+
+This site scores **100/100 on Accessibility** and **97/100 on SEO** with Google Lighthouse.
+
+[See 🖥️ Desktop report (PDF)](./docs/Google-Lighthouse-SEO-Accessibility_Go-Driver_Desktop-2025-10-24.pdf) &#124; [See 📱 Mobile report (PDF)](./docs/Google-Lighthouse-SEO-Accessibility_Go-Driver_Mobile-2025-10-24.pdf)
+
+---
+
 © 2025 Heidi Kalske-Akintobi | Photini Family™ | All rights reserved.
 
 
