@@ -104,7 +104,7 @@ Next-Generation Advocacy &amp; Compliance Platform. Go-Driver is a modular, priv
 
 This site scores **100/100 on Accessibility** and **97/100 on SEO** with Google Lighthouse.
 
-[See 🖥️ Desktop report (PDF)](./docs/Google-Lighthouse-SEO-Accessibility_Go-Driver_Desktop-2025-10-24.pdf) &#124; [See 📱 Mobile report (PDF)](./docs/Google-Lighthouse-SEO-Accessibility_Go-Driver_Mobile-2025-10-24.pdf)
+[See 🖥️ & 📱 reports (PDFs) in full README](https://hidikoo.github.io/Photini-Go-Driver/)
 
 ---
 
