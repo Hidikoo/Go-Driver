@@ -100,7 +100,7 @@ Next-Generation Advocacy &amp; Compliance Platform. Go-Driver is a modular, priv
 
 ---
 
-![Accessibility 90/100](https://img.shields.io/badge/Accessibility-100%2F100-green) &#124; ![SEO 100/100](https://img.shields.io/badge/SEO-97%2F100-brightgreen)
+![Accessibility 90/100](https://img.shields.io/badge/Accessibility-90%2F100-green) &#124; ![SEO 100/100](https://img.shields.io/badge/SEO-100%2F100-brightgreen)
 
 This site scores **90/100 on Accessibility** and **100/100 on SEO** with Google Lighthouse.
 
