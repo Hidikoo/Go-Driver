@@ -98,7 +98,22 @@
             font-size: 2.75rem;
             font-weight: 700;
         }
-        
+
+        .readiness-badge {
+            background: rgba(112, 182, 200, 0.1);
+            color: var(--primary-cyan);
+            padding: 0.6rem 1.5rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            border: 1.5px solid var(--primary-cyan);
+            display: inline-block;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(5px);
+        }
+ 
         h2 {
             font-size: 2.25rem;
             color: var(--primary-cyan);
@@ -209,11 +224,17 @@
         }
         
         .hero-tagline {
-            font-size: 1.1rem;
+            font-size: 1.25rem;
+            font-family: var(--font-heading);
             font-style: italic;
-            margin-top: 2.5rem;
-            color: var(--text-medium);
-            font-weight: 400;
+            color: var(--dark-navy);
+            background: rgba(255, 255, 255, 0.4);
+            display: inline-block;
+            padding: 1.25rem 2.5rem;
+            border-radius: 50px;
+            margin-top: 3.5rem;
+            border: 1.5px dashed var(--primary-cyan);
+            box-shadow: 0 4px 15px var(--shadow-soft);
         }
         
         /* CONTAINER */
@@ -561,6 +582,7 @@
     <!-- HERO -->
     <section class="hero">
         <h1>Next-Generation Advocacy & Compliance Platform</h1>
+        <span class="readiness-badge">✓ EU AI ACT & GDPR READY</span>
         <p><strong>AI-powered • Privacy-first • Trauma-informed</strong></p>
         <p>Built for NGOs, legal professionals, and human rights defenders protecting vulnerable populations.</p>
         <div>
@@ -814,12 +836,19 @@
                     <p>Review technical controls. Submit feedback. Contribute open-source privacy tools.</p>
                     <a href="https://github.com/Hidikoo/Photini-Go-Driver/issues" class="btn btn-secondary">Join on GitHub</a>
                 </div>
-                
+ 
+                <div class="card">
+                    <div class="card-icon">🎗️</div>
+                    <h4>Auditors & Investors</h4>
+                    <p>Contact us for more information and collaboration</p>
+                    <a href="mailto:info@photini.org" class="btn btn-secondary">Contact Us</a>
+                </div>
+
                 <div class="card">
                     <div class="card-icon">🏛️</div>
-                    <h4>Auditors & Investors</h4>
+                    <h4>Photini Family's Compliance Principles</h4>
                     <p>Review our compliance documentation. Validate self-audit processes. Prepare for ISO certification Q3 2026.</p>
-                    <a href="mailto:info@photini.org" class="btn btn-secondary">Contact Us</a>
+                    <a href="./docs/COMPLIANCE_PRINCIPLES.md" class="btn btn-secondary">Read Compliance Principles</a>
                 </div>
             </div>
             
@@ -893,6 +922,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
