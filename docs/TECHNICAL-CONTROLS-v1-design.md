@@ -5,6 +5,7 @@
 📋 **[Compliance Principles](./COMPLIANCE_PRINCIPLES.md)**  
 🗺️ **[Roadmap](./roadmap.md)** | **[Vision](./roadmap-vision.md)**  
 🎴 **[Flashcards & Q&A](./Go-Driver-Flashcards-n-QnA.md)**
+🏗️ **[Backend Source-of-Truth (Xano)](./Go-Driver%20&%20Photini%20Family%20—%20Xano%20Backend%20Source-of-Truth%2010.10.2025.md)** - Complete technical reference for database, API, and roles
 
 ---
 # **Technical Controls Implementation Guide**
