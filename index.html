@@ -172,17 +172,36 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
+            display: grid;
+            grid-template-columns: 200px 1fr auto;
+            align-items: center;
+            gap: 2rem;
+        }
+   
+        .topbar-logo-center {
+            justify-self: center;
             display: flex;
-            justify-content: space-between;
             align-items: center;
         }
-        
+
+        .topbar-logo-center img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .topbar-logo-center:hover img {
+            transform: scale(1.1);
+        }
+
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--bg-white);
             font-family: var(--font-heading);
             letter-spacing: -0.02em;
+            white-space: nowrap;
         }
         
         .main-nav ul {
@@ -493,20 +512,20 @@
 
         .ecosystem-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
-            max-width: 1200px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 0 2rem;
         }
 
         .ecosystem-grid.foundation {
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             max-width: 900px;
         }
 
         .ecosystem-grid.governance {
-            max-width: 400px;
+            max-width: 450px;
         }
 
         .ecosystem-card {
@@ -596,43 +615,30 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 2rem;
-            margin-top: 2rem;
+            gap: 3rem;
+            margin-top: 3rem;
             flex-wrap: wrap;
+        }
+
+        .hero-logo-primary {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            filter: drop-shadow(0 4px 12px rgba(112, 182, 200, 0.3));
+        }
+
+        .hero-logo-secondary {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            opacity: 0.8;
         }
 
         .hero-logo-item {
             width: 100px;
             height: 100px;
             object-fit: contain;
-        }
-
-        /* Mobile Responsive */
-        @media (max-width: 768px) {
-            .ecosystem-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-    
-            .ecosystem-grid.foundation,
-            .ecosystem-grid.governance {
-                max-width: 100%;
-            }
-    
-           .ecosystem-logo {
-                width: 100px;
-                height: 100px;
-           }
-    
-           .hero-logos {
-               gap: 1rem;
-           }
-    
-           .hero-logo-item {
-               width: 80px;
-               height: 80px;
-           }
-        }
+        }       
         
         /* FOOTER */
         footer {
@@ -704,19 +710,25 @@
         
         /* RESPONSIVE */
         @media (max-width: 768px) {
-            .topbar-content {grid-template-columns: 1fr; text-align: center;}
-            .topbar-logo-center {justify-self: center;}
-            .ecosystem-grid,
-            .ecosystem-grid.foundation {grid-template-columns: 1fr;}
-            .ecosystem-logo {width: 100px;vheight: 100px;}
             h1 { font-size: 2rem; }
             h2 { font-size: 1.75rem; }
+            .topbar-content { grid-template-columns: 1fr; text-align: center; gap: 1rem; }
+            .topbar-logo-center { order: -1; }
+            .main-nav ul { flex-direction: column; gap: 0.5rem; }
             .hero { padding: 3rem 1.5rem; }
             .hero p { font-size: 1.05rem; }
-            .main-nav ul {flex-direction: column; gap: 0.5rem;}
-            .feature-content {grid-template-columns: 1fr; gap: 2rem;}
-            .card-grid {grid-template-columns: 1fr;}
-            .btn {display: block; margin: 0.75rem 0;}
+            .hero-logos { gap: 1,5rem; }
+            .hero-logo-item { width: 80px; height: 80px; }
+            .hero-logo-primary { width: 120px; height: 120px; }
+            .hero-logo-secondary { width: 80px; height: 80px; }
+            .ecosystem-grid,
+            .ecosystem-grid.foundation { grid-template-columns: 1fr; }
+            .ecosystem-grid.governance { max-width: 100%; }
+            .ecosystem-logo { width: 100px; height: 100px; top: -50px; }
+            .feature-content { grid-template-columns: 1fr; gap: 2rem; }
+            .card-grid { grid-template-columns: 1fr; }
+            .btn { display: block; margin: 0.75rem 0; }
+        }
         }
     </style>
 </head>
@@ -1204,6 +1216,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
