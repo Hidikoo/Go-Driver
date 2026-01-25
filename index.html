@@ -276,6 +276,10 @@
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
+            justify-items: center;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
         
         .card {
@@ -285,6 +289,8 @@
             padding: 2.5rem;
             transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
             box-shadow: 0 4px 15px var(--shadow-soft);
+            max-width: 400px; 
+            width: 100%;
         }
         
         .card:hover {
@@ -315,6 +321,8 @@
             filter: grayscale(10%);
             opacity: 0.96;
             transition: transform 0.18s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.3s;
+            max-width: 400px; 
+            width: 100%;
         }
         
         .problem-card:hover {
@@ -347,6 +355,7 @@
             margin: 0.5rem;
             font-size: 1rem;
             letter-spacing: 0.01em;
+            text-align: center;
         }
         
         .btn-primary {
@@ -513,19 +522,22 @@
         .ecosystem-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 2rem;
+            gap: 2,5rem;
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
+            justify-items: center;
         }
 
         .ecosystem-grid.foundation {
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             max-width: 900px;
+            justify-items: center;
         }
 
         .ecosystem-grid.governance {
             max-width: 450px;
+            justify-items: center;
         }
 
         .ecosystem-card {
@@ -541,6 +553,8 @@
             text-align: center;
             position: relative;
             margin-top: 60px;
+            max-width: 480px;
+            width: 100%;
         }
 
         .ecosystem-card:hover {
@@ -738,15 +752,14 @@
     <header class="topbar">
         <div class="topbar-content">
             <div class="logo">Photini's Go-Driver</div>
-
+            <a href="#overview" class="topbar-logo-center">
+                <img src="./docs/images/photini-logo-color_192px.png" alt="Photini Family">
+            </a>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#compliance">Compliance</a></li>
-                    <a href="#overview" class="topbar-logo-center">
-                        <img src="./docs/images/photini-logo-color_192px.png" alt="Photini Family">
-                    </a>
                     <li><a href="#architecture">Architecture</a></li>
                     <li><a href="#documentation">Docs</a></li>
                     <li><a href="https://github.com/Hidikoo/Photini-Go-Driver/blob/main/docs/compliance-principles-full-v1.0.pdf" target="_blank">Download PDF Brief</a></li>
@@ -1216,6 +1229,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
