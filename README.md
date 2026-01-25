@@ -9,7 +9,7 @@
 
 **Photini's Go-Driver** is a modular, ethics-first toolkit for social advocacy, legal aid, and emergency field support. Built for NGOs, human rights defenders, and grassroots organizations—especially those protecting vulnerable children and asylum seekers.
 
-🔗 **[→ Full Documentation (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)** | **[📖 README](./index.html)**
+🔗 **[→ Full Documentation Go-Driver README (HTML)](https://hidikoo.github.io/Photini-Go-Driver/)** | **[📖 index.html](./index.html)**
 
 ---
 
