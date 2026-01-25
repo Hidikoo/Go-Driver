@@ -173,22 +173,21 @@
             margin: 0 auto;
             padding: 0 2rem;
             display: grid;
-            grid-template-columns: 200px 1fr auto;
+            grid-template-columns: 180px 80px 1fr;
             align-items: center;
-            gap: 2rem;
+            gap: 1,5rem;
         }
    
         .topbar-logo-center {
             justify-self: center;
-            display: flex;
-            align-items: center;
-            overflow: visible;
+            display: block;
         }
 
         .topbar-logo-center img {
             width: 50px;
             height: 50px;
             object-fit: contain;
+            display: block;
             transition: transform 0.3s ease;
             overflow: visible;
         }
@@ -524,11 +523,21 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center; 
-            gap: 2,5rem;
+            gap: 4rem 2,5rem;
             max-width: 1200px;
             margin-left: auto;
             margin-right: auto;
             padding: 0 2rem;
+        }
+
+        .ecosystem-grid.rhea-four {
+            display: grid; /* Use grid instead of flex for Rhea */
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 4rem 2.5rem; 
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            justify-items: center;
         }
 
         .ecosystem-grid.foundation {
@@ -735,7 +744,8 @@
             .hero-logo-primary { width: 120px; height: 120px; }
             .hero-logo-secondary { width: 80px; height: 80px; }
             .ecosystem-grid,
-            .ecosystem-grid.foundation { grid-template-columns: 1fr; }
+            .ecosystem-grid.foundation,
+            .ecosystem-grid.rhea-four { grid-template-columns: 1fr; gap: 4rem;}
             .ecosystem-grid.governance { max-width: 100%; }
             .ecosystem-logo { width: 100px; height: 100px; top: -50px; }
             .feature-content { grid-template-columns: 1fr; gap: 2rem; }
@@ -986,7 +996,7 @@
               <h3>Rhea Network</h3>
               <p class="ecosystem-tier-subtitle">Healing Through Research & Community</p>
               <br>
-              <div class="ecosystem-grid">
+              <div class="ecosystem-grid rhea-four">
                   <div class="ecosystem-card">
                       <img src="./docs/images/photini-logo-eveningstar_V2_192px.png" alt="Rhea Network" class="ecosystem-logo">
                       <h4>Rhea Network Hub</h4>
@@ -1232,6 +1242,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
