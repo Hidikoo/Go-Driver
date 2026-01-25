@@ -16,6 +16,9 @@
     <meta name="google-site-verification" content="NsQbTj27qxqrAfZnnLTItPJinzsLBaWk3zYtJLUuJcY" />
     <link rel="canonical" href="https://hidikoo.github.io/Photini-Go-Driver/">
     <title>Photini's Go-Driver – Next-Generation Advocacy & Compliance Platform</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./docs/images/Go-Driver-logo_32px.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./docs/images/Go-Driver-logo_16px.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./docs/images/Go-Driver-logo_180px.png">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -461,6 +464,162 @@
             color: var(--text-dark);
             margin-bottom: 0;
         }
+
+         /* PHOTINI FAMILY ECOSYSTEM SECTION */
+        .ecosystem-section {
+            background: var(--bg-lighter);
+            padding: 5rem 0;
+            margin: 5rem 0;
+        }
+
+        .ecosystem-tier {
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+
+        .ecosystem-tier h3 {
+            font-size: 1.75rem;
+            color: var(--primary-cyan);
+            margin-bottom: 0.5rem;
+            font-family: var(--font-heading);
+        }
+
+         .ecosystem-tier-subtitle {
+            font-size: 1rem;
+            color: var(--text-light);
+            margin-bottom: 2.5rem;
+            font-style: italic;
+        }
+
+        .ecosystem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .ecosystem-grid.foundation {
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            max-width: 900px;
+        }
+
+        .ecosystem-grid.governance {
+            max-width: 400px;
+        }
+
+        .ecosystem-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border-light);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px var(--shadow-soft);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .ecosystem-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 25px rgba(112, 182, 200, 0.25);
+            border-color: var(--primary-cyan);
+        }
+
+        .ecosystem-logo {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 1.25rem;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--cyan-lighter) 0%, var(--bg-white) 100%);
+            padding: 0.75rem;
+        }
+
+        .ecosystem-card h4 {
+            font-size: 1.25rem;
+            color: var(--dark-navy);
+            margin-bottom: 0.75rem;
+            font-family: var(--font-body);
+            font-weight: 600;
+        }
+
+        .ecosystem-card p {
+            font-size: 0.9rem;
+            color: var(--text-medium);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .ecosystem-status {
+            display: inline-block;
+            padding: 0.35rem 0.9rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.03em;
+            margin-top: 0.5rem;
+        }
+
+        .status-building {
+            background: rgba(255, 193, 7, 0.15);
+            color: #f57c00;
+        }
+
+        .status-mvp {
+            background: rgba(76, 175, 80, 0.15);
+            color: #388e3c;
+        }
+
+        .status-planned {
+            background: rgba(112, 182, 200, 0.15);
+            color: var(--primary-cyan);
+        }
+
+        /* Hero Logo Addition */
+        .hero-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-logo-item {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .ecosystem-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+    
+            .ecosystem-grid.foundation,
+            .ecosystem-grid.governance {
+                max-width: 100%;
+            }
+    
+           .ecosystem-logo {
+                width: 100px;
+                height: 100px;
+           }
+    
+           .hero-logos {
+               gap: 1rem;
+           }
+    
+           .hero-logo-item {
+               width: 80px;
+               height: 80px;
+           }
+        }
         
         /* FOOTER */
         footer {
@@ -590,6 +749,10 @@
             <a href="https://github.com/Hidikoo/Photini-Go-Driver" class="btn btn-secondary">View on GitHub</a>
         </div>
         <p class="hero-tagline">"Quality, trust, and data integrity with AI hand-in-hand with humans"</p>
+        <div class="hero-logos">
+          <img src="./docs/images/photini-logo-color_192px.png" alt="Photini Family" class="hero-logo-item">
+          <img src="./docs/images/Go-Driver-logo_192px.png" alt="Go-Driver" class="hero-logo-item">
+       </div>
     </section>
     
     <!-- OVERVIEW -->
@@ -725,6 +888,120 @@
             </div>
         </section>
     </div>
+
+    <!-- PHOTINI FAMILY ECOSYSTEM -->
+    <section id="ecosystem" class="ecosystem-section">
+      <div class="container">
+          <h2 style="text-align: center;">The Photini Family Ecosystem</h2>
+          <p style="text-align: center; font-size: 1.1rem; color: var(--text-medium); max-width: 800px; margin: 0 auto 3rem;"> A modular, integrated architecture where advocacy, healing, and governance work together to protect children and families.</p>
+
+          <!-- TIER 0: Foundation -->
+          <div class="ecosystem-tier">
+              <h3>Foundation Programs</h3>
+              <p class="ecosystem-tier-subtitle">The Core of Photini Family</p>
+              <div class="ecosystem-grid foundation">
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-color_192px.png" alt="Photini Logo" class="ecosystem-logo">
+                      <h4>Photini</h4>
+                      <p>Advocacy & legal aid platform for human rights defenders and vulnerable communities</p>
+                      <span class="ecosystem-status status-building">In Building</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/Go-Driver-logo_192px.png" alt="Go-Driver Logo" class="ecosystem-logo">
+                      <h4>Photini's Go-Driver</h4>
+                      <p>AI-powered co-pilot for case management, compliance automation, and trauma-sensitive workflows</p>
+                      <span class="ecosystem-status status-building">Alpha → MVP</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/cosmic-bear_200px.png" alt="Cosmic Bear Adventures" class="ecosystem-logo">
+                      <h4>Cosmic Bear Adventures</h4>
+                      <p>Trauma-informed children's book series supporting separated families through healing stories</p>
+                      <span class="ecosystem-status status-mvp">Q2-Q4 2026</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- TIER 1: Photini Programs -->
+          <div class="ecosystem-tier">
+              <h3>Photini Programs</h3>
+              <p class="ecosystem-tier-subtitle">Ethical AI for Evidence Protection</p>
+              <div class="ecosystem-grid">
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-gold_192px.png" alt="Photini Beacon" class="ecosystem-logo">
+                      <h4>Photini Beacon</h4>
+                      <p>Secure evidence-sharing and case-intake platform for human rights advocates</p>
+                      <span class="ecosystem-status status-building">In Building</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-turqoise_192px.png" alt="Photini Phoní" class="ecosystem-logo">
+                      <h4>Photini Phoní</h4>
+                      <p>Multilingual translation and documentation for trauma-sensitive conversations</p>
+                      <span class="ecosystem-status status-planned">Q3-Q4 2026</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-modern_192px.png" alt="Photini Bridge" class="ecosystem-logo">
+                      <h4>Photini Bridge</h4>
+                      <p>Cultural mediation toolkit connecting families, authorities, and social services</p>
+                      <span class="ecosystem-status status-planned">Q1 2027</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- TIER 2: Rhea Network -->
+          <div class="ecosystem-tier">
+              <h3>Rhea Network</h3>
+              <p class="ecosystem-tier-subtitle">Healing Through Research & Community</p>
+              <div class="ecosystem-grid">
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-eveningstar_V2_192px.png" alt="Rhea Network" class="ecosystem-logo">
+                      <h4>Rhea Network Hub</h4>
+                      <p>Collaborative framework for humanitarian aid and NGO coordination under ethics-driven infrastructure</p>
+                      <span class="ecosystem-status status-planned">Q3 2026</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-rhea-V2_192px.png" alt="Rhea Wisdom" class="ecosystem-logo">
+                      <h4>Rhea Wisdom</h4>
+                      <p>Research and knowledge-management layer linking field data to policy and education</p>
+                      <span class="ecosystem-status status-building">Q2-Q4 2026</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-retro-pastel-pop_192px.png" alt="Rhea Shield" class="ecosystem-logo">
+                      <h4>Rhea Shield</h4>
+                      <p>Safehouse network auditing and standardization collaboration infrastructure</p>
+                      <span class="ecosystem-status status-planned">2027</span>
+                  </div>
+                
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-starnight_192px.png" alt="Rhea Beacon" class="ecosystem-logo">
+                      <h4>Rhea Beacon</h4>
+                      <p>Trauma facility treatment network for coordinated healing services</p>
+                      <span class="ecosystem-status status-planned">2027</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- TIER 3: Nektarios -->
+          <div class="ecosystem-tier">
+              <h3>Nektarios</h3>
+              <p class="ecosystem-tier-subtitle">Governance, Compliance & Ethics Backbone</p>
+              <div class="ecosystem-grid governance">
+                  <div class="ecosystem-card">
+                      <img src="./docs/images/photini-logo-gold-color_192px.png" alt="Nektarios ERP" class="ecosystem-logo">
+                      <h4>Nektarios ERP</h4>
+                      <p>Compliance, governance, and human-process ERP foundation integrating ISO/AI-Act standards across all Photini Family programs</p>
+                      <span class="ecosystem-status status-building">Core Development</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
     
     <!-- COMPLIANCE -->
     <section id="compliance" class="feature-section">
@@ -922,6 +1199,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
