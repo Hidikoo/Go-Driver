@@ -512,15 +512,15 @@
 
         .ecosystem-grid {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
             gap: 2rem;
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
         }
 
         .ecosystem-grid.foundation {
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             max-width: 900px;
         }
 
@@ -1216,6 +1216,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
