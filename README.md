@@ -24,6 +24,7 @@
 | **[Roadmap](./docs/roadmap.md)** | 12-month development timeline |
 | **[Vision & Strategy](./docs/roadmap-vision.md)** | Long-term goals |
 | **[Flashcards & Q&A](./docs/Go-Driver-Flashcards-n-QnA.md)** | Quick reference guide |
+| **[Backend Source-of-Truth (Xano)](./docs/Go-Driver%20&%20Photini%20Family%20—%20Xano%20Backend%20Source-of-Truth%2010.10.2025.md)** | Complete database schema, API endpoints, role system, and compliance architecture |
 
 ---
 
