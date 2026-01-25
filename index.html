@@ -173,9 +173,9 @@
             margin: 0 auto;
             padding: 0 2rem;
             display: grid;
-            grid-template-columns: 180px 80px 1fr;
+            grid-template-columns: 180px 1fr;
             align-items: center;
-            gap: 1,5rem;
+            gap: 2rem;
         }
    
         .topbar-logo-center {
@@ -184,16 +184,16 @@
         }
 
         .topbar-logo-center img {
-            width: 50px;
-            height: 50px;
+            width: 55px;
+            height: 55px;
             object-fit: contain;
             display: block;
             transition: transform 0.3s ease;
-            overflow: visible;
+            filter: drop-shadow(0 2px 6px rgba(255, 255, 255, 0.3));
         }
 
         .topbar-logo-center:hover img {
-            transform: scale(1.1);
+            transform: scale(1.15);
         }
 
         .logo {
@@ -205,10 +205,18 @@
             white-space: nowrap;
         }
         
-        .main-nav ul {
+        .main-nav {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 1rem;
+        }
+
+        .nav-left,
+        .nav-right {
             list-style: none;
             display: flex;
-            gap: 2rem;
+            gap: 1.5rem;
         }
         
         .main-nav a {
@@ -531,13 +539,13 @@
         }
 
         .ecosystem-grid.rhea-four {
-            display: grid; /* Use grid instead of flex for Rhea */
+            display: grid;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            justify-content: center; 
             gap: 4rem 2.5rem; 
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
-            justify-items: center;
         }
 
         .ecosystem-grid.foundation {
@@ -643,17 +651,17 @@
         }
 
         .hero-logo-primary {
-            width: 192px;
-            height: 192px;
+            width: 200px;
+            height: 200px;
             object-fit: contain;
             filter: drop-shadow(0 4px 12px rgba(112, 182, 200, 0.3));
         }
 
         .hero-logo-secondary {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             object-fit: contain;
-            opacity: 0.8;
+            opacity: 0.85;
         }
 
         .hero-logo-item {
@@ -736,13 +744,15 @@
             h2 { font-size: 1.75rem; }
             .topbar-content { grid-template-columns: 1fr; text-align: center; gap: 1rem; }
             .topbar-logo-center { order: -1; }
-            .main-nav ul { flex-direction: column; gap: 0.5rem; }
+            .main-nav { flex-direction: column; gap: 0.5rem; }
+            .nav-left,
+            .nav-right { flex-direction: column; gap: 0.5rem; width: 100%; }
             .hero { padding: 3rem 1.5rem; }
             .hero p { font-size: 1.05rem; }
             .hero-logos { gap: 1,5rem; }
             .hero-logo-item { width: 80px; height: 80px; }
-            .hero-logo-primary { width: 120px; height: 120px; }
-            .hero-logo-secondary { width: 80px; height: 80px; }
+            .hero-logo-primary { width: 140px; height: 140px; }
+            .hero-logo-secondary { width: 90px; height: 90px; }
             .ecosystem-grid,
             .ecosystem-grid.foundation,
             .ecosystem-grid.rhea-four { grid-template-columns: 1fr; gap: 4rem;}
@@ -761,14 +771,16 @@
     <header class="topbar">
         <div class="topbar-content">
             <div class="logo">Photini's Go-Driver</div>
-            <a href="#overview" class="topbar-logo-center">
-                <img src="./docs/images/photini-logo-color_192px.png" alt="Photini Family">
-            </a>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#overview">Overview</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#compliance">Compliance</a></li>
+                </ul>
+                    <a href="#overview" class="topbar-logo-center">
+                    <img src="./docs/images/photini-logo-color_192px.png" alt="Photini Family">
+                    </a>
+                <ul>
                     <li><a href="#architecture">Architecture</a></li>
                     <li><a href="#documentation">Docs</a></li>
                     <li><a href="https://github.com/Hidikoo/Photini-Go-Driver/blob/main/docs/compliance-principles-full-v1.0.pdf" target="_blank">Download PDF Brief</a></li>
@@ -1242,6 +1254,7 @@
     </footer>   
 </body>
 </html>
+
 
 
 
