@@ -9,7 +9,8 @@
 📘 **[Main GitHub Repository](https://github.com/Hidikoo/Photini-Go-Driver)**  
 🌐 **[Project Website](https://hidikoo.github.io/Photini-Go-Driver/)**  
 📧 **Contact:** [hello@photini.family](mailto:hello@photini.family)  
-🔗 **Official Site:** [www.photini.family](https://www.photini.family)
+🔗 **Official Site:** [www.photini.family](https://www.photini.family)  
+🏗️ **[Backend Source-of-Truth (Xano)](./Go-Driver%20&%20Photini%20Family%20—%20Xano%20Backend%20Source-of-Truth%2010.10.2025.md)** - Complete technical reference for database, API, and roles
 
 ---
 
