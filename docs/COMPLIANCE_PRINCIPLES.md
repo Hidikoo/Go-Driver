@@ -1,5 +1,5 @@
 # **Photini Family Higher-Level Principles for Ethics & Compliance**
-**Version 1.0 – October 2025 (Draft)**  
+**Version 1.1 – January 2026 (Living document, next review April 2026)**  
 **© 2025 Photini Family™ – All Rights Reserved**
 
 ---
@@ -11,6 +11,11 @@
 📧 **Contact:** [hello@photini.family](mailto:hello@photini.family)  
 🔗 **Official Site:** [www.photini.family](https://www.photini.family)  
 🏗️ **[Backend Source-of-Truth (Xano)](./Go-Driver%20&%20Photini%20Family%20—%20Xano%20Backend%20Source-of-Truth%2010.10.2025.md)** - Complete technical reference for database, API, and roles
+
+## **Photini Family Higher-Level Principles for Ethics & Compliance PDFs:**
+📄 **[Executive Summary (PDF)](./docs/compliance-principles-executive-summary-v1.0..pdf)**
+📄 **[Full Document (PDF)](./docs/compliance-principles-full-v1.0.pdf)**
+
 
 ---
 
@@ -861,7 +866,7 @@ https://www.oecd.org/en/topics/sub-issues/ai-principles.html
 
 **Prepared By:** AI Ethics & Compliance Team  
 **Approval:** Founder, Photini Family™  
-**Review Cycle:** Quarterly (Next Review: January 2026)  
+**Review Cycle:** Quarterly (Next Review: April 2026)  
 **Distribution:** Public (GitHub), Internal (All Staff), External (Auditors, Partners)
 
 ---
@@ -882,3 +887,18 @@ https://www.oecd.org/en/topics/sub-issues/ai-principles.html
 ---
 
 **[⬆ Back to Top](#table-of-contents)**
+
+1. [Preface](#1-preface)
+2. [Supreme Principles](#2-supreme-principles)
+3. [Regulatory Framework Map](#3-regulatory-framework-map)
+4. [ISO Standards Integration](#4-iso-standards-integration)
+5. [Business Ethics Hierarchy](#5-business-ethics-hierarchy)
+6. [AI-Human Partnership Principles](#6-ai-human-partnership-principles)
+7. [Compliance-by-Design Architecture](#7-compliance-by-design-architecture)
+8. [Implementation Roadmap](#8-implementation-roadmap)
+9. [Maintenance & Innovation](#9-maintenance--innovation)
+10. [Living Document Evolution & Change Log](#10-living-document-evolution--change-log-structure)
+11. [Conclusion & References](#11-conclusion-and-references)
+12. [Technical Annex A: Threshold Matrix](#technical-annex-a-threshold-matrix-v10)
+
+---
