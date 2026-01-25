@@ -65,7 +65,7 @@ Pilot Go-Driver with your cases. Contact: [hello@photini.family](mailto:hello@ph
 ### For Auditors & Investors
 Review our [Compliance Principles](./docs/COMPLIANCE_PRINCIPLES.md) and [Implementation Roadmap](./docs/roadmap.md).
 
-| ### **Photini Family Higher-Level Principles for Ethics & Compliance PDFs:** |
+| **Photini Family Higher-Level Principles for Ethics & Compliance PDFs:** |
 |------------------------------------------------------------------------------|
 | 📄 **[Executive Summary (PDF)](./docs/compliance-principles-executive-summary-v1.0..pdf)** |
 | 📄 **[Full Document (PDF)](./docs/compliance-principles-full-v1.0.pdf)** |
